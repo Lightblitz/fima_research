@@ -3,4 +3,7 @@ Contains the codebase and outputs from the replication of various research paper
 
 Full replication of the Eritimur et al, 2003 paper can be found [here](Ertimur%20Replication%202020.pdf)
 
-Notebooks were created in Google Colab and will need  modification to function properly in Jupyter/other editors due to file mounting and the use of SQLite.
+Notebooks were created in Google Colab and will need  modification to function properly in Jupyter/other editors due to file mounting and the use of various libraries.
+
+- Data manipulation primarily done with SQL through PandaSQL and Pandas dataframes
+- Significance tests performed with the statsmodels library + visualization with Matplotlib and Seaborn
